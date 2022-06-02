@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-from add_0 import add
-if __name__ == "__main__":
-    a = 1
-    b = 2
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+import random
+number = random.randint(-10, 10)
+if number > 0:
+    print("{} is positive".format(number))
+elif number == 0:
+    print("{} is zero".format(number))
+else:
+    print("{} is negative".format(number))
