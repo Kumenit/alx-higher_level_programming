@@ -3,7 +3,7 @@
 Prints different results of
 a request
 """
-import urllib.request
+import urllib
 
 
 if __name__ == "__main__":
